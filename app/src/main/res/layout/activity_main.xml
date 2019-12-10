@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dulal.tic_tac_toegame.MainActivity">
+
+
+
+
+    <GridLayout
+        android:background="@drawable/grid"
+        android:id="@+id/gridLayout"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView0"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="15dp"
+            android:onClick="gamelogic"
+            android:tag="0"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView1"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:onClick="gamelogic"
+            android:tag="1"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView2"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:onClick="gamelogic"
+            android:tag="2"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView3"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:onClick="gamelogic"
+            android:tag="3"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView4"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginTop="30dp"
+            android:onClick="gamelogic"
+            android:tag="4"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView5"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:onClick="gamelogic"
+            android:tag="5"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView6"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:onClick="gamelogic"
+            android:tag="6"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView7"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:onClick="gamelogic"
+            android:tag="7"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView8"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginTop="35dp"
+            android:onClick="gamelogic"
+            android:tag="8"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView9"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:onClick="gamelogic"
+            android:tag="9"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView10"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:onClick="gamelogic"
+            android:tag="10"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView11"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:onClick="gamelogic"
+            android:tag="11"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView12"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_marginTop="35dp"
+            android:onClick="gamelogic"
+            android:tag="12"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView13"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:onClick="gamelogic"
+            android:tag="13"
+            />
+
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView14"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:onClick="gamelogic"
+            android:tag="14"
+            />
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="94dp"
+            android:id="@+id/imageView15"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:onClick="gamelogic"
+            android:tag="15"
+            />
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="35dp"
+        android:id="@+id/linearlayout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+        <Button
+            android:text="Try Again"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:background="@android:color/holo_blue_bright"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:onClick="Tryagain" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#FFFF"
+        android:id="@+id/linearlayout2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/dulal"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:text="            DEVELOPED BY MD.DULAL HOSSIN\n
+            Email: md.dulalhossin63@gamil.com"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <Button
+            android:text="Play game"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/button2"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:onClick="GameStart" />
+    </LinearLayout>
+
+
+</RelativeLayout>
